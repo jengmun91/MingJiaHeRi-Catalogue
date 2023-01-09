@@ -1,0 +1,180 @@
+body
+{
+	font-size: 100%;
+	
+}
+
+p{
+	color:white;
+}
+
+ .titlePage .Abc {
+	color:white;
+	font-weight:bold;font-size:1.2em;
+}
+
+
+i{
+	color:white;
+}
+
+.card .card-header{
+	background-color: antiquewhite;
+}
+
+.card button{
+	color:#7f0000;
+	text-decoration:none;
+}
+
+.card button:hover{
+	color:#7f030c;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+.card button:visited{text-decoration:none;}
+
+.card .card-body a{
+	color:#7f0000;
+	text-decoration:none;
+}
+
+
+.card .card-body a:hover{
+	color:#7f0000;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+/*Title Catalogue*/
+.titleCatalogue
+{
+	margin-top:10%;color:#ededed;font-size:1.5em;font-family:Arial, Helvetica, sans-serif;font-weight:lighter;
+}
+
+/*Image Logo*/
+.logoMJHRRow
+{
+	border:white 0px solid;margin-top:0%; margin-bottom:5%;
+}
+
+/*Copyright Text*/
+.copyrightTxt 
+{
+	color:#ededed; font-size:0.7em;font-family:Arial, Helvetica, sans-serif;font-weight:lighter;
+	text-align:center;margin-bottom:3%; margin-top:0px;
+}
+
+
+
+/*Video*/
+.iframe
+{
+  width: 100%;
+  height: auto;
+}
+
+
+/*imageSlider Gallery*/
+
+.vidContainer img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.picContainer {
+  position: relative;
+  width:100%;
+  margin-bottom:2%;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+ .prev i,
+ .next i {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  
+  width: auto;
+  padding: 16px; 
+  margin-top: 70px;
+  color: white;
+  font-weight: bold;
+  /* font-size: 20px; */
+    font-size: 50px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+
+}
+/* Position the "pre button" to the left */
+.prev i{
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+.next i{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+ .prev i:hover,
+.next i:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
